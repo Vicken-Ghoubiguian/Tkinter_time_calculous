@@ -1,6 +1,12 @@
-# Importation of all useful libraries
+# Import all necessary Python built-in modules
 from tkinter import *
 from tkinter import ttk
+
+# Import all Python project-internal modules
+from configuration import configurationTimeCalculous
+
+#
+time_calculous_functions = configurationTimeCalculous()
 
 #
 root = Tk()
