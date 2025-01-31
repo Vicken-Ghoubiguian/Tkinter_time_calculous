@@ -1,9 +1,28 @@
 # Import all necessary Python built-in modules
 from tkinter import *
 from tkinter import ttk
+from enum import Enum
 
 # Import all Python project-internal modules
 from configuration import configurationTimeCalculous
+
+#
+class numeral(Enum):
+    FIRST = 0
+    SECOND= 1
+    THIRD = 2
+    BEFORE_LAST = 3
+    LAST = 4
+
+#
+class weekDay(Enum):
+    SUNDAY = 0
+    MONDAY = 1
+    TUESDAY = 2
+    WEDNESDAY = 3
+    THURSDAY = 4
+    FRIDAY = 5
+    SATURDAY = 6
 
 #
 if __name__ == "__main__" :
