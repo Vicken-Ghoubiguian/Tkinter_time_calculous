@@ -57,12 +57,12 @@ if __name__ == "__main__" :
     tab6 = ttk.Frame(tabs)
 
     #
-    tabs.add(tabl, text="Wished weekday in a choosen month")
-    tabs.add(tab2, text="Calculations on date and time")
-    tabs.add(tab3, text="Number of weeks in a year according to the iso norm")
-    tabs.add(tab4, text="")
-    tabs.add(tab5, text="")
-    tabs.add(tab6, text="")
+    tabs.add(tabl, text="For 1")
+    tabs.add(tab2, text="For 2")
+    tabs.add(tab3, text="For 3")
+    tabs.add(tab4, text="For 4")
+    tabs.add(tab5, text="For 5")
+    tabs.add(tab6, text="For 6")
 
     # Later for 'tab1'
     l1=ttk.Label(tabl,text="I am tab-1", width=10).grid(column=0, row=0, padx=30, pady=30)
