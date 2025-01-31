@@ -83,6 +83,15 @@ if __name__ == "__main__" :
     s3 = ttk.Separator(tab3, orient='horizontal').place(relx=0, rely=0.47, relwidth=1, relheight=1)
 
     #
+    s4 = ttk.Separator(tab4, orient='horizontal').place(relx=0, rely=0.47, relwidth=1, relheight=1)
+
+    #
+    s5 = ttk.Separator(tab5, orient='horizontal').place(relx=0, rely=0.47, relwidth=1, relheight=1)
+
+    #
+    s6 = ttk.Separator(tab6, orient='horizontal').place(relx=0, rely=0.47, relwidth=1, relheight=1)
+
+    #
     tabs.pack(expand=1, fill='both')
 
     #
