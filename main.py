@@ -1,7 +1,7 @@
 # Import all necessary Python built-in modules
 from tkinter import *
 from tkinter import ttk
-from tooltip import *
+from customized_python_modules.tooltip import *
 from enum import Enum
 
 # Import all Python project-internal modules
