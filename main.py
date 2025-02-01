@@ -59,10 +59,9 @@ if __name__ == "__main__" :
     #
     tabs.add(tabl, text="number_of_days_in_choosen_month_in_choosen_year")
     tabs.add(tab2, text="number_of_weeks_in_a_year_according_to_the_iso_norm")
-    tabs.add(tab3, text="")
-    tabs.add(tab4, text="")
-    tabs.add(tab5, text="For 5")
-    tabs.add(tab6, text="wished_number_in_year_is_day_in_choosen_year")
+    tabs.add(tab3, text="wished_wday_in_choosen_year")
+    tabs.add(tab4, text="wished_number_in_year_is_day_in_choosen_year")
+    tabs.add(tab5, text="wished_wday_in_choosen_month")
 
     # Later for 'tab1'
     l1=ttk.Label(tabl,text="I am tab-1", width=10).grid(column=0, row=0, padx=30, pady=30)
@@ -87,9 +86,6 @@ if __name__ == "__main__" :
 
     #
     s5 = ttk.Separator(tab5, orient='horizontal').place(relx=0, rely=0.47, relwidth=1, relheight=1)
-
-    #
-    s6 = ttk.Separator(tab6, orient='horizontal').place(relx=0, rely=0.47, relwidth=1, relheight=1)
 
     #
     tabs.pack(expand=1, fill='both')
