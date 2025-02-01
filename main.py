@@ -1,7 +1,7 @@
 # Import all necessary Python built-in modules
 from tkinter import *
 from tkinter import ttk
-#from tktooltip import ToolTip
+from tooltip import *
 from enum import Enum
 
 # Import all Python project-internal modules
@@ -63,6 +63,9 @@ if __name__ == "__main__" :
     tabs.add(tab3, text="wished_wday_in_choosen_year")
     tabs.add(tab4, text="wished_number_in_year_is_day_in_choosen_year")
     tabs.add(tab5, text="wished_wday_in_choosen_month")
+
+    #
+    tooltip = Tooltip(tabs, "This is a custom tooltip")
 
     # Later for 'tab1'
     l1=ttk.Label(tabl,text="I am tab-1", width=10).grid(column=0, row=0, padx=30, pady=30)
